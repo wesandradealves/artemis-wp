@@ -30,3 +30,13 @@ CacheKeyModify -qs:_ga
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
 # END NON_LSCACHE
+
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "/var/www/html/wp-content/uploads/simply-static/04e9062576a4bb0500ca92a5f632de7c-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static

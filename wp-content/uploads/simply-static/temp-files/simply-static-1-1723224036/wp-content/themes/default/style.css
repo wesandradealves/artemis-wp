@@ -1,0 +1,24 @@
+﻿/*! 
+    Theme Name: Blank Template
+    Description: Blank boilerplate for Wordpress 'anythingyouwant' theming
+    Author: Wesley Alves
+    Author URI:  https://github.com/wesandradealves
+    Version: 1.0
+    Text Domain: blank-theme
+*/
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    } 
+}
+
+html, body {
+    animation: opacity 600ms forwards;
+}
